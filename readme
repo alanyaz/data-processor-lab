@@ -1,0 +1,36 @@
+This JavaScript tool is like a smart assistant for managing schoolwork
+It helps organize information about a course, assignments, and what students submit. 
+The main goal is to check if everything makes sense, gather useful details, and figure out the average scores for students.
+
+My code contains the following functionality
+
+1.Input Data:
+courseinfo: Important details about the course, like its ID and name.
+assignmentgroup: Info about all assignments, including names, due dates, and points possible.
+learnersubmissions: Data on what students submitted, including learner IDs, assignment IDs, when they turned it in, and their scores.
+
+
+2.Validation Functions:
+isnumber: Checks if numbers are used where they should be.
+isstring: Makes sure that words are used when expected.
+courseidmatch: Looks if the course IDs in courseinfo and assignmentgroup match.
+isvalid: A flexible tool that checks both numbers and words at the same time.
+
+3.Date Comparison:
+islate: Figures out if a student handed in their work late by comparing due dates with submission times.
+Data Extraction Functions:
+extractassignmentdata: Picks out info about assignments and shows them in an easy-to-read way.
+extractlearnerassignmentdata: Takes out details about what each student submitted and organizes them neatly.
+
+4.Data Processing:
+processAssignmentData: Takes care of organizing assignment and submission data. It figures out if a submission was late, not yet due, or on time, and puts all the info in an easy-to-understand format.
+getLearnerData: The big boss that manages everything. It makes sure the data is okay, tries to do the processing, and catches errors if something goes wrong.
+
+
+The code has lots of comments to help you understand what's going on.
+Make sure the data is in the right format, and double-check if the course IDs match for accurate processing.
+
+
+
+
+
