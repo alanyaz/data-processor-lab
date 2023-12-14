@@ -27,10 +27,5 @@ processAssignmentData: Takes care of organizing assignment and submission data. 
 getLearnerData: The big boss that manages everything. It makes sure the data is okay, tries to do the processing, and catches errors if something goes wrong.
 
 
-The code has lots of comments to help you understand what's going on.
-Make sure the data is in the right format, and double-check if the course IDs match for accurate processing.
-
-
-
 
 
